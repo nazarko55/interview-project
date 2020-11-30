@@ -50,6 +50,8 @@ export class WeatherContainer extends React.Component {
     return (
 
       <div className="wrapper">
+        <h3>Autorization</h3>
+
         <span>{isFetching && "...обработка"}</span>
         <form onSubmit={this.submitHandler}>
           <p className="message">{message}</p>
